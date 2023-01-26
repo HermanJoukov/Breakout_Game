@@ -238,20 +238,20 @@ function keyDownHandler(e) {
     // 39 for right key
     // 32 for spacebar key
     
-    if(e.keyCode == 39) {
+    if(e.keyCode == 68) {
         rkey = true;
-    } else if(e.keyCode == 37) {
+    } else if(e.keyCode == 65) {
         lkey = true;
-    } else if(e.keyCode == 32) {
+    } else if(e.keyCode == 67) {
         spacebar_action();
     }
 }
 
 
 function keyUpHandler(e) {
-    if(e.keyCode == 39) {
+    if(e.keyCode == 68) {
         rkey = false;
-    } else if(e.keyCode == 37) {
+    } else if(e.keyCode == 65) {
         lkey = false;
     }
 }
